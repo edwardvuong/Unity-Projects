@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\DamageZone.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\HealthCollectible.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\RubyController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/edwardvuong/Documents/GitHub/Unity-Projects/Rubys Adventure Tutorial/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -86,6 +87,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/edwardvuong/Documents/GitHub/Unity-Projects/Rubys Adventure Tutorial/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/edwardvuong/Documents/GitHub/Unity-Projects/Rubys Adventure Tutorial/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/edwardvuong/Documents/GitHub/Unity-Projects/Rubys Adventure Tutorial/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.1.0f2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
