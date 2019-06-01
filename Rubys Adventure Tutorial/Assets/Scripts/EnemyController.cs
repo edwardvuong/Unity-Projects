@@ -65,7 +65,7 @@ public class EnemyController : MonoBehaviour
         animator.SetTrigger("Fixed");
         broken = false;
         rigidbody2D.simulated = false;
-        Destroy(smokeEffect);
+        Destroy(smokeEffect.gameObject);
     }
 
     void OnCollisionEnter2D(Collision2D other)
