@@ -62,10 +62,10 @@ public class EnemyController : MonoBehaviour
     //Public because we want to call it from elsewhere like the projectile script
     public void Fix()
     {
-        //smokeEffect.Stop();
-        //Destroy(smokeEffect.gameObject);
+        animator.SetTrigger("Fixed");
         broken = false;
         rigidbody2D.simulated = false;
+        Destroy(smokeEffect);
     }
 
     void OnCollisionEnter2D(Collision2D other)
