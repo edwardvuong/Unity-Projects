@@ -97,6 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
+  projectilePrefab: {fileID: 0}
 --- !u!50 &6430136323748740588
 Rigidbody2D:
   serializedVersion: 4
